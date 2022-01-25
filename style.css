@@ -182,3 +182,61 @@
   right: -25px;
   bottom: 20px;
 }
+
+.chip {
+  border-radius: 2.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.8rem;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.chip .icon {
+  margin-right: 0.5rem;
+}
+
+.chip .button {
+  margin-left: 0.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+.chip button {
+  border: none;
+  background: transparent;
+}
+
+.normal {
+  background-color: #94a3b8;
+  color: white;
+}
+
+.primary {
+  color: white;
+  background-color: blue;
+}
+
+.warn {
+  color: white;
+  background-color: tomato;
+}
+
+.chip-js {
+  background-color: #ca8a04;
+  color: white;
+}
+
+.chip-html {
+  background-color: hsla(11, 100%, 52.2%, 1);
+  color: white;
+}
+
+.chip-css {
+  background-color: #3333ed;
+  color: white;
+}
+
+.chip-node {
+  background-color: #11a111;
+  color: white;
+}
