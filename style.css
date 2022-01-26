@@ -240,3 +240,39 @@
   background-color: #11a111;
   color: white;
 }
+
+.snackbar {
+  background-color: #333;
+  font-size: 1.4rem;
+  color: white;
+  padding: 1.5rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem var(--COLOR-SLATE-400);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.snackbar-label {
+  margin-right: 2rem;
+}
+
+.snackbar-action {
+  min-width: 10rem;
+  justify-content: space-between;
+}
+
+.snackbar .snackbar-action button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.snackbar .snackbar-action .snackbar-action-button {
+  text-transform: uppercase;
+  color: hotpink;
+}
+
+.snackbar .snackbar-action .snackbar-action-icon {
+  color: white;
+}
