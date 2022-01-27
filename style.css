@@ -10,6 +10,11 @@
   display: flex;
 }
 
+.task-heading {
+  font-size: 1.5rem;
+  margin: 2rem 8rem;
+}
+
 .container {
   gap: 30px;
   margin: 4rem;
@@ -114,6 +119,7 @@
   background-color: transparent;
   color: white;
   font-size: 1.8rem;
+  cursor: pointer;
 }
 
 .header-standard .align-start span {
@@ -246,7 +252,7 @@
   font-size: 1.4rem;
   color: white;
   padding: 1.5rem;
-  box-shadow: 0.2rem 0.2rem 0.5rem var(--COLOR-SLATE-400);
+  box-shadow: 0.2rem 0.2rem 0.5rem #94a3b8;
   justify-content: space-between;
   align-items: center;
   border-radius: 0.5rem;
@@ -258,7 +264,7 @@
 }
 
 .snackbar-action {
-  min-width: 10rem;
+  min-width: 100px;
   justify-content: space-between;
 }
 
@@ -275,4 +281,75 @@
 
 .snackbar .snackbar-action .snackbar-action-icon {
   color: white;
+}
+
+.dialog {
+  /* min-width: 240px;
+  max-width: 300px;
+  max-height: 360px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.4rem;
+  padding: 2rem;
+}
+
+.dialog-alert {
+  max-height: 360px;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.dialog-simple {
+  max-height: 360px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.dialog-header {
+  padding: 0.5rem;
+}
+
+.dialog-content {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: #94a3b8;
+  margin-bottom: auto;
+}
+
+.dialog-content ul {
+  padding: 0;
+}
+
+.dialog-content li:hover {
+  background-color: #f8f8f8;
+}
+
+.dialog-content .d-s-content {
+  gap: 1.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.dialog-content .d-s-content p {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.dialog-content .d-s-content .avtar-d-s {
+  font-size: 4rem;
+}
+
+.dialog-footer {
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dialog-footer button {
+  border: none;
+  background: transparent;
+  color: rgb(206, 23, 243);
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
