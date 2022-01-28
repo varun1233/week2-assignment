@@ -28,6 +28,7 @@
   border: 1px solid #f7f7f7;
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
 }
 
 .header img {
@@ -373,7 +374,7 @@
   flex-direction: column;
   margin-top: 1.2rem;
   font-size: 1.5rem;
-  gap: 1.5rem;
+  gap: 0.5rem;
   justify-content: flex-start;
 }
 
@@ -394,4 +395,35 @@
 
 .drawer-content i {
   margin-right: 2rem;
+}
+
+.tab {
+  min-width: 40rem;
+  margin: auto;
+}
+
+.tab a {
+  text-decoration: none;
+}
+
+.tab-link {
+  font-size: 1.8rem;
+  padding: 1rem 0.5rem;
+  width: calc(100% / 3);
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.tab-link-active {
+  color: rgba(98, 0, 238, 0.87);
+  background-color: rgb(233 222 249 / 87%);
+  border-bottom: 2px solid rgba(98, 0, 238, 0.87);
+}
+
+.tab-link:hover {
+  background-color: rgba(241, 235, 252, 0.87);
+}
+
+.tab-link i {
+  margin-right: 0.5rem;
 }
